@@ -31,9 +31,9 @@ btn.addEventListener('click', function (e) {
   
   
   document.querySelector('.foot-text').textContent = Math.floor(resultP) + ' ';
-  document.querySelector('.bikeSpeed-text').textContent = Math.floor(resultB) + ' ';
-  document.querySelector('.carSpeed-text').textContent = Math.floor(resultC) + ' ';
-  document.querySelector('.planeSpeed-text').textContent = Math.floor(resultPl) + ' ';
+  document.querySelector('.bike-text').textContent = Math.floor(resultB) + ' ';
+  document.querySelector('.car-text').textContent = Math.floor(resultC) + ' ';
+  document.querySelector('.plane-text').textContent = Math.floor(resultPl) + ' ';
   
   document.querySelector('.minutsP').textContent = Math.round(w) + ' '
   document.querySelector('.minutsB').textContent = Math.round(x) + ' '
